@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackathon Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hackathon Tracker</h1>
+        <form id="hackathonForm">
+            <label for="hackathonName">Hackathon Name:</label>
+            <input type="text" id="hackathonName" required>
+            <label for="hackathonDate">Date:</label>
+            <input type="date" id="hackathonDate" required>
+            <label for="hackProject">Hack Project:</label>
+            <input type="text" id="hackProject" required>
+            <label for="hackLink">Link:</label>
+            <input type="text" id="hackLink" required>
+            <button type="submit">Add Hackathon</button>
+        </form>
+        <div id="hackathonList"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
